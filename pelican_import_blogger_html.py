@@ -23,7 +23,7 @@ def blogger2fields_html(file, download_images=False, output_path=None):
             pass
 
     def entry2fields(entry, download_images):
-        date = time.strftime("%Y-%m-%d %H:%M", entry.updated_parsed)
+        date = time.strftime("%Y-%m-%d %H:%M", entry.published_parsed)
         filename = entry.link.rsplit('/',1)[-1].split(".")[0]
         tags = [e['term'] for e in entry.tags if e['term'].find("blogger")<0] if hasattr(entry, "tags") else None
         kind = "article"
