@@ -9,6 +9,9 @@ With this method we have a more reliable import, with
 the downside that our old posts will be more difficult 
 to edit of course.
 
+It also supports download images locally, just add
+`--download_images` as command line argument.
+
 Run as:
 
     python pelican_import_blogger_html.py blogger_export_file.xml --output=mypelicansite/content/
