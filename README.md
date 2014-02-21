@@ -10,7 +10,7 @@ the downside that our old posts will be more difficult
 to edit of course.
 
 It also supports download images locally, just add
-`--download_images` as command line argument.
+`--download-images` as command line argument.
 
 Run as:
 
